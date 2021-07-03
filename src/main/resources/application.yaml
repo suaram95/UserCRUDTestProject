@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: User CRUD Test Project
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: testProject
+
+#jwt
+jwt:
+  secret: JHF*$%5$$ASDAS**OOP
+  expiration: 6000000
+  header: Authorization
